@@ -1,0 +1,204 @@
+/* Navigation Bar */
+
+.navigation {
+    margin: 0px -8px;
+    background-color: #343434 ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+#logoresize {
+    width: 32px;
+    margin: 15px
+}
+  
+#library {
+    background-color: #B28B0A;
+    border-radius: 4px;
+}
+  
+.navigation input[type=text] {
+    position: absolute;
+    left: 78px; top: 21px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+  
+.navigation a {
+    font-family: mrs-eaves-xl-serif-narrow, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    padding: 5px 16px;
+    margin: 15px 10px;
+}
+
+/* Log A Book */
+
+#bannerimage {
+    background-image: url(../image/heading.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+    margin: 66px -8px 0px;
+}
+  
+.logabook h1{
+    font-family: mrs-eaves-xl-serif-narrow, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 50px 0px 24px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+#searchtext {
+    font-family: Mrs Eaves XL Serif Nar OT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    color: #343434;
+    text-align: left;
+    display: inline-block;
+    padding: 10px 500px 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#searchbar {
+    margin: 0;
+    text-align: center;
+}
+
+.logabook p {
+    font-family: mrs-eaves-xl-serif-narrow, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+/* Explore*/
+
+.explore {
+    display: flex;
+    background-color: #DDD2CB;
+    color: #343434;
+    margin: 0px -8px;
+}
+
+.split {
+    flex: 33.3%;
+}
+  
+.explore h2 {
+    font-family: ambroise-std, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    padding-top: 10px;
+}
+  
+#splitone {
+    padding-left: 50px;
+    font-family: Mrs Eaves XL Serif Nar OT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px; 
+    border-right: solid 1px #343434;
+}
+
+#splittwo {
+    padding-left: 50px;
+    font-family: Mrs Eaves XL Serif Nar OT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px; 
+    border-right: solid 1px #343434;
+}
+  
+#splitthree {
+    padding-left: 50px;
+    font-family: Mrs Eaves XL Serif Nar OT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+}
+  
+.recommended {
+    padding-left: 10px;
+}
+  
+#profileone {
+    width: 50px;
+    float:left;
+    margin-right: 10px;
+}
+  
+.profiles {
+    clear:left;
+    width: 50px;
+    float:left;
+    margin-right: 10px;
+}
+  
+.description {
+    margin:25px;
+}
+  
+.title {
+    font-weight: bold;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #343434;
+    margin: 0px -8px -8px -8px;
+}
+  
+#logotworesize {
+    width: 66px;
+    padding: 0px 40px;
+    display: inline-block;
+    position: relative;
+}
+  
+footer p {
+    color: #FFFFFF;
+    font-family: mrs-eaves-xl-serif-narrow, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    position: absolute;
+    text-align: center;
+}
+  
+#aboutus {
+    left: 150px;
+}
+  
+#contactus {
+    left: 250px;
+}
+  
+#faqs {
+    left: 370px;
+}

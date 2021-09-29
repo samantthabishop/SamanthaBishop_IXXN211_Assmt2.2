@@ -1,0 +1,248 @@
+/* Navigation Bar */
+
+.navigation {
+  margin: 0px -8px;
+  background-color: #343434 ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#logoresize {
+  width: 32px;
+  margin: 15px
+}
+
+#library {
+  background-color: #B28B0A;
+  border-radius: 4px;
+}
+
+.navigation input[type=text] {
+  position: absolute;
+  left: 78px; top: 21px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.navigation a {
+  font-family: mrs-eaves-xl-serif-narrow, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  float: right;
+  text-align: center;
+  padding: 5px 16px;
+  margin: 15px 10px;
+}
+
+/* Welcome Banner*/
+
+#bannerimage {
+  background-image: url(../image/heading.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 350px;
+  margin: 66px -8px 0px;
+}
+
+.welcome {
+  color: white;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-family: mrs-eaves-xl-serif-narrow, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding: 50px 0px 24px;
+  margin:0px;
+}
+
+.welcome h2 {
+  font-family: mrs-eaves-roman-all-small-ca, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 3px;
+  background-color: #B28B0A;
+  margin: 0;
+}
+
+.welcome p {
+  font-family: mrs-eaves-xl-serif-narrow, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+/* Currently Reading*/
+
+.column {
+  float: left;
+  width: 10%;
+  padding: 0px 40px;
+  font-family: mrs-eaves-xl-serif-narrow, serif;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 18px;
+  color: #343434;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  margin-left: 55px;
+}
+
+.books {
+  width:100%
+}
+
+#current h2 {
+  font-family: ambroise-std, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  padding:10px 30px;
+  color: #343434;
+}
+
+/* Quote of the day */
+
+blockquote {
+  background-color:#343434;
+  font-family: Mrs Eaves XL Serif Nar OT;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center; 
+  color: #FFFFFF;
+  padding: 50px;
+  margin: 40px -8px 0px;
+}
+
+/* Explore*/
+
+.explore {
+  display: flex;
+  background-color: #DDD2CB;
+  color: #343434;
+  margin: 0px -8px;
+}
+
+.explore h2 {
+  font-family: ambroise-std, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+.split {
+  flex: 50%;
+}
+
+#splitone {
+  padding-left: 50px;
+  font-family: Mrs Eaves XL Serif Nar OT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px; 
+  border-right: solid 1px #343434;
+}
+
+#splittwo {
+  padding-left: 50px;
+  font-family: Mrs Eaves XL Serif Nar OT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.recommended {
+  padding-left: 20px;
+}
+
+#profileone {
+  width: 60px;
+  float:left;
+  margin-right: 10px;
+}
+
+#profiletwo {
+  clear:left;
+  width: 60px;
+  float:left;
+  margin-right: 10px;
+}
+
+#profilethree {
+  clear: left;
+  width: 60px;
+  float:left;
+  margin-right: 10px;
+}
+
+.description {
+  margin:30px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #343434;
+  margin: 0px -8px -8px -8px;
+}
+
+#logotworesize {
+  width: 66px;
+  padding: 0px 40px;
+  display: inline-block;
+  position: relative;
+}
+
+footer p {
+  color: #FFFFFF;
+  font-family: mrs-eaves-xl-serif-narrow, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  display: inline;
+  position: absolute;
+  text-align: center;
+}
+
+#aboutus {
+  left: 150px;
+}
+
+#contactus {
+  left: 250px;
+}
+
+#faqs {
+  left: 370px;
+}
